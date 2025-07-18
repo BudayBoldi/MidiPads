@@ -12,6 +12,7 @@ with mido.open_input("Oxygen Pro Mini USB MIDI") as inport:
         else:
             for l in lista:
                 l.kill()
+                lista.remove(l)
             
         
     
